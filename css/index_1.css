@@ -5,7 +5,7 @@
     margin-bottom: 15px; 
     margin-top: 5px; 
     padding-left: 10px;
-    background-color: grey;
+    background-color: #7178f5;
     
   }
 
@@ -17,33 +17,34 @@
     margin-bottom: 10px; 
     margin-top: 5px; 
     padding-left: 10px;
-    
     text-align: center;
-
-
-  }
+ }
 
   .nav-link {
     color: white;
     margin-top: -10px;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
    }
 
    img {
     width: 100%;
     height: auto;
     align-content: center;
+    padding-top: 20px;
+    padding-left: 10px;
 
    }
 }
 
 @media all and (min-width: 480px){
-    .nav {
+  .nav {
     border-bottom: solid;  
     border-width: 1px; 
     margin-bottom: 15px; 
     margin-top: 5px; 
     padding-left: 10px;
+    background-color: #42f29a;
   }
 
   h3 {
@@ -52,10 +53,14 @@
     margin-bottom: 5px
   }
 
-    .nav-link {
+  .nav-link {
       color: black;
+      font-family: 'Josefin Sans', sans-serif;
+  }
 
-    }
+  img {
+    width: 550px;
+    padding-top: 30px;
    
   }
-  
+ } 
